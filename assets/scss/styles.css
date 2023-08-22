@@ -111,6 +111,7 @@ a {
   font-style: normal;
   line-height: 150%;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .header {
@@ -844,6 +845,7 @@ footer {
     width: 100%;
     padding: 0;
     padding-left: 15px;
+    padding: 5vw 0 5vw 15px;
   }
   .about__info div {
     width: 100%;
@@ -898,18 +900,19 @@ footer {
   }
   .offer__cards .card__content img {
     position: absolute;
-    top: 50%;
-    left: 2vw;
-    transform: translateY(-50%);
+    top: 22%;
+    left: 20px;
     width: 5vw;
     height: auto;
   }
   .offer__cards .card__content h3 {
     margin: 0;
     padding: 0;
+    padding-left: 15px;
   }
   .offer__cards .card__content-button {
     margin: 0;
+    margin-left: 3px;
   }
   .projects {
     padding: 0;
@@ -954,7 +957,7 @@ footer {
   }
   footer {
     padding: 0;
-    padding-top: 15px;
+    padding-top: 45px;
   }
   footer .contact {
     align-items: center;
@@ -1013,8 +1016,8 @@ footer {
     width: 100%;
   }
   .offer__cards .card {
-    width: 70vw;
-    height: 70vw;
+    width: 85vw;
+    height: 55vw;
   }
   .offer__cards .card__content {
     padding: 10vw;
